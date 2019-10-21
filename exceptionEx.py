@@ -1,3 +1,4 @@
+
 x=[0,2,4,5]
 num1 = 10
 num2 = 2
@@ -14,7 +15,8 @@ except ZeroDivisionError:
     print("Divide by zero error")
 except IndexError:
     print("index out of range")
-
+finally:
+    print("Hello This is final")
 
 print("continued Execution")
 
